@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+}
+.zagolovok{
+    font-size:70px;
+    text-align: center; 
+    margin: 4px;
+    text-shadow: -2px 6px rgb(68, 68, 236),
+    -3px 12px rgb(189, 189, 223);
+
+}
+.navy a{
+    text-decoration: none;
+    font-size: 27px;
+    color:black;
+    border:double 5px orange;
+    
+}
+.navy{
+    justify-content:space-around;
+    display: flex;
+}
+.navy a:hover{
+    background-color:black ;
+    color:white;
+    transition: 1s ease-out;
+    transform: scale(1.5);
+}
+.info {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #00aaff, #ffaa00);
+    border-image-slice: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.info article{
+    width: 320px;
+    height: auto;
+    padding: 16px;
+    margin: 16px;
+    background-color: aquamarine;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.article-but {
+    text-decoration: none;
+    color:black;
+    background-color: rgb(220, 220, 220);
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right bottom ,lightblue, lightyellow, lightblue);
+    text-align: center;
+}
+.ul-ol{
+    font-size: 30px;
+    background-color: rgb(230, 212, 189);
+    border-radius:70px;
+    padding:60px;
+    padding-left: 100px;
+}
+.h{
+    border: solid 5px orange;
+    border-radius: 30px;
+    background-color: black;
+    color: bisque;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 40px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+ section article{
+    display: flex;
+    flex-direction: column;
+}
+article p{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+}
+img{
+    width:270px;
+    height:300px;
+    text-align: center;
+}
+.pe{
+    font-size: 20px; 
+   text-align: center;
+    background-color: orange; 
+    color:blanchedalmond;
+}
+
+.navy a:focus{
+    background-color: blue;
+    color:black;
+}
+.article-but:hover{
+    background-image: linear-gradient(to left bottom ,blue, lightyellow, darkblue);
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+}
+article {
+  border: 2px solid #00aaff;
+  border-radius: 12px;        
+  padding: 16px;              
+  margin: 16px;              
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+footer section{
+    display: flex;
+    flex-wrap: nowrap;
+}
+footer section div{
+    width: 35%;
+    font-size: 20px;
+}
+footer section div p{
+    font-weight: 600;
+}
